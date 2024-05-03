@@ -1,0 +1,42 @@
+*{
+    font-family: Sans-Serif;
+    transition: all;
+}
+
+h3{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btns-wrapper{
+    display: flex;
+    justify-content: center
+}
+
+#btns-wrapper button{
+    margin-right: 16px;
+}
+
+#yes-btn{
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: green;
+}
+
+#yes-btn:hover{
+    background-color: white;
+    color:black;
+}
+
+#no-btn{
+    width: 110px;
+    height: 40px;
+    color: white;
+    background-color: red;
+}
